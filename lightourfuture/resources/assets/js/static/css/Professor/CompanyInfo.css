@@ -1,0 +1,43 @@
+.companydiv{
+    display     : grid;
+    grid-template-columns: 5fr 5fr;
+    margin-top: 2%;
+  }
+  
+  .shadowSt{
+    box-shadow: 1px 1px 5px #000;
+    margin-top: 1%;
+    padding: 2%;
+  }
+  
+  .companyInfoSt{
+    display     : grid;
+    grid-template-columns: 3fr 7fr;
+    height: 200px;
+  }
+  
+  .companyImg{
+    background-image: url('/images/professor/softbank.jpg');
+    width: auto;
+    height: auto;
+  }
+  
+
+   /* width */
+   ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+      background: #008080; 
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+      background: #008080; 
+  }

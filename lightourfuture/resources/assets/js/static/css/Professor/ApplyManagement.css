@@ -1,0 +1,66 @@
+.divColumStyle{
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+}
+
+.bodyDialog {
+display: grid;
+grid-template-columns: 2.7fr 0.2fr 7.1fr;
+height: 100%;
+grid-column-gap: 0.01em;
+grid-row-gap: 0.01em;
+padding:1%;
+}
+
+.titleDialog {
+display: grid;
+grid-template-rows: 0.7fr 9.3fr;
+}
+
+.titleDialog2 {
+display: grid;
+grid-template-rows: 1.4fr 8.6fr;
+}
+
+.dialogRight {
+display: grid;
+grid-template-rows: 4.75fr 0.5fr 4.75fr;
+height: 100%;
+}
+
+.dialogInfo {
+display: grid;
+grid-template-rows: 4.5fr 1fr 4.5fr;
+}
+
+.titlefont {
+padding-top: 1%;
+}
+
+.shadowSt {
+box-shadow: 1px 1px 5px #000;
+}
+
+.interviewDig{
+display: grid;
+grid-template-columns: 5fr 5fr;
+}
+
+ /* width */
+ ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+      background: #008080; 
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+      background: #008080; 
+  }

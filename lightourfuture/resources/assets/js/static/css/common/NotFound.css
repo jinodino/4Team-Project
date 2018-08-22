@@ -1,0 +1,43 @@
+
+@font-face{
+    font-family : "NotoSans";
+    src : url("../../font/NotoSansCJKjp-DemiLight.otf");
+}
+
+.wrap-cont {
+    width : 100%;
+    height : 100%;
+    background-image: url("/images/Index/404pattern.png");
+    background-size : cover;
+    display: grid;
+    grid-template-rows: 0.5fr 1.9fr 1fr;
+}
+
+.main-content {
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.title-msg {
+    font-family : "Noto Sans";
+    font-size   : 25em;
+}
+
+.sub-msg {
+    font-family : "Noto Sans";
+    font-size   : 4.2rem;
+}
+
+.return-btn {
+    border : solid white 3.5px;
+    border-radius: 1.5em;
+    text-align : center;
+    font-family: "Noto Sans";
+}
+
+.return-btn > span {
+    font-size: 2.3em;
+    color : white;
+    padding : 1em;
+}

@@ -1,0 +1,117 @@
+  .shadow {
+    box-shadow: 10px 20px;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .bodySt {
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+    height: 100%;
+  }
+  
+  .stdBodySt {
+    display: grid;
+    grid-template-columns: 4fr 6fr;
+  }
+  
+  .tabsSt {
+    display: grid;
+    grid-template-rows: 0.5fr 9.5fr;
+    height: 100%;
+  }
+  
+  .resultLeft {
+    display: grid;
+    grid-template-rows: 5fr 5fr;
+  }
+  
+  .resultLeftTitle {
+    display: grid;
+    grid-template-rows: 1fr 9fr;
+  }
+  
+  .resultRight {
+    display: grid;
+    grid-template-rows: 7fr 3fr;
+  }
+  
+  .successTitle {
+    display: grid;
+    grid-template-rows: 0.5fr 9.5fr;
+  }
+  
+  .otherTitle {
+    display: grid;
+    grid-template-rows: 1.5fr 8.5fr;
+  }
+  
+  .otherBody {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  .companyRight {
+    display: grid;
+    grid-template-rows: 0.5fr 9.5fr;
+  }
+  
+  .gap {
+    grid-column-gap: 2em;
+  }
+  
+  .textSt{
+      color: #008080;
+      font-size: 20px;
+  }
+
+  .stdSt{
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+    height: 100%;
+  }
+
+  .stdSt_height{
+    display: grid;
+    grid-template-rows: 9.8fr 0.2fr;
+    height: 100%;
+  }
+  
+  /* width */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+      background: #008080; 
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+      background: #008080; 
+  }
+
+
+  #tabon {
+    text-align: center;
+    height: 70px;
+    background-color: #008080;
+    color: white;
+    font-size: 1.5rem;
+    padding-top: 10%;
+}
+
+  #taboff {
+      text-align: center;
+      height: 70px;
+      background: white;
+      color: #008080;
+      font-size: 1.5rem;
+      padding-top: 10%;
+
+  }

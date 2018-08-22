@@ -1,0 +1,99 @@
+@font-face {
+    font-family : "NotoSans";
+    src : url("../../font/NotoSansCJKjp-DemiLight.otf");
+}
+
+
+.wrap-cont {
+    display: grid;
+    grid-template-rows: 0.3fr 0.7fr;
+}
+
+.wrap-cont > p {
+    font-family: "Noto Sans";
+}
+
+.data-section {
+    height:100%;
+    display: grid;
+    grid-template-rows: 0.1fr 0.9fr
+}
+
+.manager-info-section {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 0.1fr 0.8fr 0.2fr;
+    
+}
+.matching-info {
+    background:cornflowerblue;
+    display: grid;
+    grid-template-rows: 2fr 8fr;
+}
+
+.company-info {
+    background:green;
+    display: grid;
+    grid-template-rows: 2fr 8fr;
+}
+
+.data-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr
+}
+
+.company-image {
+    background : aqua;
+}
+
+.company-info-sum {
+    background : seagreen;
+}
+
+
+.match-items {
+    display: grid;
+    
+    grid-column-gap: 1em;
+}
+
+.match-list-item {
+    height: 100%;
+    background : blueviolet;
+    border : 0.2em solid red;
+}
+
+.profile {
+    background: red;
+    display: grid;
+    grid-template-columns: 1.5fr 8.5fr;
+}
+
+.profile-info {
+    background: aqua;
+    display:grid;
+    grid-template-rows: 6.5fr 3.5fr;
+}
+
+.sub-title {
+    color : #008080;
+    font-family: "Noto Sans";
+    font-weight: bold;
+}
+
+.fonting {
+    font-family: "Noto Sans";
+}
+
+.match-list {
+    width: 90%;
+    max-width: 135em;
+    overflow-x: auto;
+}
+
+.match-school {
+    width: 20em;
+    min-width: 20em;
+    height:25em;
+    display: inline-block;
+}

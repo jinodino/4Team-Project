@@ -1,0 +1,66 @@
+    #allsum {
+        border: 1px solid;
+        text-align: center;
+        border-radius : 5%;
+        margin-left: auto;
+        margin-right: auto;
+
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+    }
+    .radius {
+        border-radius:50%;
+        width: 150px;
+        height: 150px;
+        border: 5px solid #008080;
+        line-height: 200px;
+        margin:20px auto;
+        transition:all 0.8s;
+        /* margin-left: auto;
+        margin-right: auto;*/
+
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+    }
+    .radius:hover {
+        box-shadow: inset 0px 0px 0 150px #C0C2C3;
+        color: #FFF;
+    }
+    .Hover > .not{
+        position: relative;
+        opacity: 1;
+    }
+    .Hover:hover > .not{
+        transition: opacity 0.8s;
+        opacity: 0;
+    }
+    .Hover > .unnot{
+        position: absolute;
+        opacity: 0;
+    }
+    .Hover:hover > .unnot{
+        transition: opacity 0.8s;
+        opacity: 1;
+    }
+
+    hr{
+        width:150px; 
+        text-align:left; 
+        border: solid 1px; 
+        color:#008080
+    }
+
+    #tdstyle{
+        font-size: 18px; 
+        height: 60px; 
+        padding-top: 10px;
+    }
+    .stdtopnum {
+        font-size: 50px
+    }
+    .stdtopnum span {
+        font: bold;
+        font-size: 25px;
+    }

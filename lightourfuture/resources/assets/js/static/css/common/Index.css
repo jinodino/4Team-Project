@@ -1,0 +1,166 @@
+@font-face {
+    font-family: "NotoSans";
+    src: url("../../font/NotoSansCJKjp-DemiLight.otf");
+}
+
+.wrap-cont {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 0.1fr 2fr 0.7fr;
+    background-image: url("/images/Index/backgroundPattern.png");
+    background-size: cover;
+}
+
+.header {
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contents-layout {
+    margin: auto;
+    padding-top: 2em;
+    width: 80%;
+    top: 32%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 2vw;
+}
+
+.contents {
+    text-align: center;
+    background: linear-gradient(to bottom, rgb(255, 255, 255), rgba(255, 255, 255, 0) 30%);
+    background-size: cover;
+    /* background-image: url("/images/Index/backgroundPattern.png"); */
+}
+
+.footer {
+    /* background : rgb(0, 51, 255); */
+    background: linear-gradient(to right, rgb(35, 206, 156), rgb(17, 80, 206) 90%);
+}
+
+.function-box {
+    padding: 1.2em;
+    text-align: right;
+}
+
+.function-box>button {
+    color: white;
+    padding: 1vh 2.5vh 1vh 2.5vh;
+    margin: 0 5vh 0 10vh;
+    font-size: 1.2em;
+    font-family: "Noto Sans";
+    background: rgb(17, 80, 206);
+    border-radius: 5%;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.function-box>button>span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.function-box>button>span:after {
+    content: "\00bb";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -1em;
+    transition: 05.s;
+}
+
+.function-box>button:hover>span {
+    padding-right: 1.5em;
+}
+
+.function-box>button:hover>span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.function-box>.language-pack {
+    color: rgb(17, 80, 206);
+    padding: 0 1.5em 0 1.5em;
+    font-size: 1.5em;
+    border-right: 0.1vw rgb(17, 80, 206) solid;
+}
+
+.contents>#welcome-message {
+    /* padding-top: 0.1em; */
+    color: rgb(17, 80, 206);
+    font-family: "Noto Sans";
+    font-size: 5em;
+    font-weight: 580;
+}
+
+.classify-card {
+    height: 50vh;
+    text-align: center;
+    border-top: 1vh solid rgb(17, 80, 206);
+    background: white;
+    box-shadow: 0.4vw 0.4vw rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.classify-card img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+}
+
+.classify-card span {
+    color: rgb(17, 80, 206);
+    font-family: "Noto Sans";
+    font-size: 2.5em;
+}
+
+.classify-card:hover {
+    box-shadow: 0.8vw 0.8vw rgba(0, 0, 0, 0.5);
+}
+
+.login-guide {
+    padding-top: 2em;
+    text-align: center;
+}
+
+.login-guide>p {
+    color: rgb(17, 80, 206);
+    font-family: "Noto Sans";
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.login-guide>img {
+    animation-iteration-count: infinite;
+    animation-name: good;
+    animation-duration: 1.5s;
+}
+
+@keyframes good {
+    /* color : transparent */
+    0% {
+        padding-top: 0;
+    }
+    50% {
+        padding-top: 0.5em;
+    }
+    100% {
+        padding-top: 0;
+    }
+}
+
+.contribute {
+    width: 100%;
+    padding-top: 4em;
+    text-align: center;
+    color: white;
+    font-family: "Noto Sans";
+    font-size: 1.6em;
+}

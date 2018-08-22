@@ -1,0 +1,59 @@
+#styleTitle {
+    border-bottom: 1px solid rgb(177, 177, 177);
+    border-right: 1px solid rgb(177, 177, 177);
+    background: #ECEDED;
+}
+#styleitem {
+    border-bottom: 1px solid rgb(177, 177, 177);
+}
+
+
+
+#expand {
+    height: auto;
+    /* border: solid 1px; */
+    overflow: hidden;
+    transition: height 0.5s;
+  }
+  #toggle:checked ~ #expand {
+    height: 0px;
+    color: #FFF;
+  }
+  #toggle:checked ~ label::after {
+    content: " ▼";
+  } 
+  #toggle ~ label::after {
+    content: " ▲";
+  } 
+  #toggle ~ label:hover{
+    color: blue;
+  }
+
+  #toggleemployment:checked ~ #expand {
+    height: 0px;
+    color: #FFF;
+  }
+  #toggleemployment:checked ~ label::after {
+    content: " ▼";
+  } 
+  #toggleemployment ~ label::after {
+    content: " ▲";
+  } 
+  #toggleemployment ~ label:hover{
+    color: blue;
+  }
+  
+  #itemtoggle:checked ~ #expand {
+    height: 0px;
+    color: #FFF;
+  }
+  
+  #itemtoggle:checked ~ label::after {
+    content: " ▼ ";
+  } 
+  #itemtoggle ~ label::after {
+    content: " ▲ ";
+  } 
+  #itemtoggle ~ label:hover{
+    color: blue;
+  }

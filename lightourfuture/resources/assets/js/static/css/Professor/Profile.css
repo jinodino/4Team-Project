@@ -1,0 +1,33 @@
+/* .contentsSt{
+    height: 100%;
+    width: 100%;
+    display : grid;
+    grid-template-columns: 7fr 3fr;
+    background-color: rgba(0, 0, 0, 0.04);
+}
+
+.basicSt{
+    display : grid;
+    grid-template-columns: 5fr 5fr;
+}
+
+.basicSt2{
+    display : grid;
+    grid-template-columns: 1fr;
+}
+.profileContents{
+    padding: 3%;
+    margin: 3%;
+    height: 90%;
+    background-color: white;
+}
+
+.profileImage{
+    margin: 7%;
+    background-color: white;
+    height: 70%;
+    display: grid;
+    grid-template-rows: 3fr 3fr 4fr;
+}
+
+ */

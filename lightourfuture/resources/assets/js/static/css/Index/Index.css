@@ -1,0 +1,246 @@
+@import "https://fonts.googleapis.com/css?family=Nanum+Gothic|Roboto";
+@import "https://fonts.googleapis.com/css?family=Quicksand";
+
+@font-face{
+    font-family : "NotoSans";
+    src : url("../../font/NotoSansCJKjp-DemiLight.otf");
+}
+
+html body {
+    padding : 0%;
+    margin  : 0%;
+    overflow: visible;
+    background  : linear-gradient(0deg, silver 42%, #fff 100%);
+    -webkit-font-smoothing: antialiased;
+}
+
+.container_wrapper{
+    height   : 100%;
+    overflow : relative;
+}
+
+.header-background {
+    width   : 100%;
+    height  : 85%;
+    padding : 0;    
+    z-index : 1;
+
+    background-image      : url("/images/Index/mainHeaderImg.jpg");
+    background-position   : absolute;
+    background-repeat     : no-repeat;
+    background-size       : cover;
+}
+
+
+.message-box {
+    text-align  : center;
+    float       : left;
+    padding     : 0.5% 1% 5% 2%;
+    margin      : 7% 2% 2%;
+    display     : grid;
+    grid-template-rows: 1.7fr 1.3fr 0.5fr;
+    /* background  : rgba(90, 84, 84, 0.4); */
+}
+
+#service-title {   
+    font-size       : 6em;
+    font-family     : "Roboto", sans-serif;
+    letter-spacing  : 0.4vw;
+    text-align      : center;
+    letter-spacing  : 0.15em;
+    color           : white;
+}
+
+#service-title hr {
+    display : block;
+    color   : white;
+    border-style : inset;
+    border-width : 0.02em;
+}
+
+#sub-message {    
+    font-size       : 40px;
+    font-family     : "NotoSans";
+    text-align      : center;
+    color           : white;
+}
+.languages-and-link-box{
+    width       : 100%;    
+    color       : white;
+    text-align  : center;
+    display     : grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.languages-and-link-box p {
+    size    : 2em;
+    color   : white;
+    font-family : multi-lang;
+}
+
+.languages-and-link-box a {
+    text-decoration : none !important;
+}
+
+
+.lang-setter-linker{
+    transition  : 0.8s ease;
+}
+.lang-setter-linker img:hover {
+    transform   : scale(1.1);
+    transition  : 1s ease;
+    -webkit-transform   : scale(1.2);
+    -ms-transform       : scale(1.2);
+}
+
+
+.user-info-provide {
+    z-index     : 2;
+    padding     : 2% 0 2.5em;   
+    margin      : -6% 3.2% 0;    /* margin-top  : -8%; */
+    background  : linear-gradient(0deg, silver 0%, #fff 100%);
+    border-radius: 4em 4em 0 0;
+}
+
+.provides-box {
+    margin : 2vw 0;
+    padding-left  : 0.5em;
+    padding-right : 0.5em;
+}
+
+.login-btns {   
+    margin      : 0 auto; 
+    width       : 90%;
+    text-align  : center;
+    display     : grid;
+    grid-template-columns  : 1fr 1fr 1fr 1fr;
+    grid-column-gap        : 1.5em;   
+}
+
+.login-btn {
+    height       : 38vw;
+    border       : 1em;
+    object-fit   : contain;
+    text-align   : center;
+
+    background-repeat   : no-repeat;
+    background-size     : cover;
+    background-position : center center;    
+    border-radius       : 4em 4em 4em 4em; 
+}
+
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+.login-btn:hover{
+    animation: bounce 1.2s;
+}
+
+.login-btn .login-text-box h1 {
+    color   : white;
+    opacity : 10;
+
+    font-family : "NotoSans";
+    transform   : translateY(-100vw);
+    transition  : all 0.2s ease-in-out;
+}
+
+.login-btn  .login-text-box p {
+    opacity : 0;
+    color   : white;
+
+    font-family : "NotoSans";
+    transition  : all 0.2s linear;
+    transform   : translateY(100px);
+}
+
+.login-btn .login-text-box hr{
+    opacity : 0;
+    display : block;
+    width   : 70%;
+    color   : white;
+    margin  : 0 auto;
+
+    border-style : inset;
+    border-width : 0.1em;
+    transform    : translateY(100px);
+}
+
+.login-btn .login-text-box:hover h1,
+.login-btn .login-text-box:hover p,
+.login-btn .login-text-box:hover hr{        
+    opacity   : 1;
+    transform : translateY(0px);
+    transition-delay : 0.1s;
+}
+
+.login-text-box {
+    opacity : 0; 
+    padding : 50% 0;
+    height  : 100%;
+    border  : 1em;
+    font-family: "NotoSans";
+
+    border-radius    : 4em 4em 4em 4em;
+    background-color : rgba(11, 33, 25, 0.44);
+}
+
+.login-text-box:hover {
+    opacity:3;
+}
+
+.footer {
+    margin  : auto;
+    height  : 60%;
+    display : grid;
+
+    grid-template-rows  : 3fr 2fr ;
+    background-color    : rgba(31, 31, 31);
+}
+
+.footer-project-info {
+    display : grid;
+    width   : 100%;
+    height  : 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.dialogs {
+    font-family: "NotoSans"
+}
+
+.errorSpanSt{
+    color: red;
+}
+.basicBtn{
+    padding: 0;
+}
+
+@media only screen and (min-width: 320px) {
+}
+@media only screen and (min-width: 480px) {
+}
+@media only screen and (min-width: 600px) {
+}
+@media only screen and (min-width: 768px) {
+}
+@media only screen and (min-width: 992px) {
+}
+@media only screen and (min-width: 1382px) {
+}

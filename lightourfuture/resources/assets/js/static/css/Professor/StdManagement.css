@@ -1,0 +1,89 @@
+.bodySt {
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    height: 100%;
+  }
+  
+  .leftDiv {
+    display: grid;
+    grid-template-rows: 0.7fr 9.3fr;
+    padding-right: 3%;
+  }
+  
+  /* dropdown style */
+  .dropbtn {
+    padding: 13px;
+    font-size: 13px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropbtn:hover {
+    background-color: #3e8e41;
+  }
+  
+  .titleGride {
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    text-align: center;
+  }
+  
+  .borderSt {
+    border: 1px solid black;
+  }
+
+  /* width */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+      background: #008080; 
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+      background: #008080; 
+  }
+   

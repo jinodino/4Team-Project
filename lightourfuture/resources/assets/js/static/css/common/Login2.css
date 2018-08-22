@@ -1,0 +1,116 @@
+.backImgLoginBox{
+    position: relative;
+    width:50%; 
+    height:100%; 
+    background-size: 100% 100%;
+    z-index: 1;
+}
+.backImgLoginBox:after{
+    z-index: -10;
+    content : "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity : 0.5;
+    width:100%; 
+    height:100%; 
+    background-image : url('/images/Index/loginBackground.jpg'); 
+}
+.backImgManualBox{
+    /* border: 1px solid #000;  */
+    width:50%; 
+    height:100%; 
+    background-image : url('/images/Index/loginPattern.png'); 
+    background-size: 100% 100%;
+}
+
+.mobile-manual {
+    height:50%; 
+    background-image : url('/images/Index/loginPattern.png'); 
+    background-size: 100% 100%;
+}
+
+.mobile-login {
+    height:50%; 
+    background-image : url('/images/Index/loginBackground.jpg'); 
+    background-size: 100% 100%;
+}
+
+/* .SortVerticalIn{
+    display: table-cell;
+    vertical-align: middle;
+} */
+.loginfield{
+    width  : 100%;
+    font-size : 2em;
+    color : white;
+    padding: 8px;
+    background : linear-gradient(to right, rgb(0, 128, 128) ,rgb(17,80,206)  80%  );
+}
+.textfield {
+    width  : 100%;
+    /* margin : 0 0 0.5em 0em; */
+    padding: 0.5em 0.5em 0.5em 2.3em;
+    border : 1px solid rgb(102, 102, 102) ;
+    /* border-radius : 0.25em; */
+    font-size: 1.7rem;
+    margin-bottom: -55px;
+    background : rgba(255, 255, 255, 0.274);
+}
+.logInStyle{
+    background : rgba(255, 255, 255, 0.651);
+    border-radius : 1em;
+    border : 2px solid black ;
+}
+
+.manual{
+    display:block; 
+    margin-left:auto; 
+    margin-right: auto;
+    margin-top:10px; 
+    margin-bottom:10px;  
+    background : rgba(255, 255, 255, 0.808);
+    border-radius : 0.25em;
+    /* border : 2px solid black ; */
+    box-shadow: 0px 0px 10px rgb(83, 83, 83);
+}
+
+.manual > p{
+    text-align : center;
+    vertical-align : text-middle;
+    font-size : 5em;
+}
+.forget{
+    color :rgb(0, 128, 128);
+    font-family: "Noto Sans";
+    text-align: right;
+    font-size: 1.2em;
+}
+
+.middle-sort{
+    display: table; 
+    height: 100%;
+}
+.bar {
+    border-left: 2px solid #008080; 
+    margin:30px 1px 20px 1px
+}
+
+.middle-sort > div{
+    display: table-cell; 
+    vertical-align: middle;
+}
+
+
+.classify-welcome {
+    height: 100%;
+    text-align : center;
+}
+
+.classify-welcome > p {
+    vertical-align : text-middle;
+    color : white;
+    font-family : "Noto Sans";
+    font-size : 5em;
+}

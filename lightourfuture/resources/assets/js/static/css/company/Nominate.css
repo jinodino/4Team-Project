@@ -1,0 +1,46 @@
+.sub-title {
+    color : #008080;
+    font-family: "Noto Sans";
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+
+.wrap-cont {
+    height:100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 0.45fr 0.65fr;
+}
+.small-title {
+    color : #008080;
+    font-family: "Noto Sans";
+    font-size: 1.3rem;
+    padding-top: 1.5em;
+}
+
+.notify-area { 
+    height:100%;
+    width:100%;
+    display: grid;
+    grid-template-rows: 0.12fr 0.76fr 0.12fr;
+}
+
+.nominate-area {
+    height:100%;
+    display: grid;
+    grid-template-rows: 0.12fr 0.88fr;
+}
+
+.nominate-list-sections {
+    height: 100%;
+    overflow-y: auto;
+    display: grid;
+    grid-template-columns: 0.4fr 0.3fr 0.3fr;
+}
+
+.nominate-std {
+    color: #008080;
+    text-decoration: underline;
+
+}

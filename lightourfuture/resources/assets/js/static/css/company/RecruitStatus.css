@@ -1,0 +1,84 @@
+@font-face{
+    font-family : "NotoSans";
+    src : url("../../font/NotoSansCJKjp-DemiLight.otf");
+}
+
+.wrap-cont {
+    width  : 100%;
+    height : 100%;
+    display: grid;
+    grid-template-rows: 4fr 6fr;
+    padding-left : 2.5em;
+    padding-right : 2.5em;
+}
+
+.recuite-list {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 0.1fr 1fr;
+}
+
+.std-info-box {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 0.1fr 1fr;
+}
+
+.sub-title {
+    color : #008080;
+    font-family: "Noto Sans";
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.headline {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.decision-box {
+    text-align : right;
+    margin-top : 0.4em;
+    font-size  : 1.2rem;
+    font-family : "Noto Sans";
+    color : #008080;
+}
+
+.decision-box > button {
+    padding : 0.1em 1em;
+    font-family: "Noto Sans";
+    background : #008080;
+    color: white;
+}
+
+.decision-box > button:hover {
+    background: red;
+}
+
+.separation {
+    width : 93%;
+    margin-left: 3.7em;
+    text-align: center;
+    border: 0.3px solid gray;
+    border-style: inset;
+    color : teal;
+}
+
+.list-box {
+    border-top : 1px solid black;
+    font-family: "Noto Sans";
+    text-align: center;
+}
+
+.std-list {
+    background:white;
+    box-shadow : 0.4px 0.4px 0.4px 0.4px rgba(0,0,0,0.4);
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-column-gap: 0.3em;
+    max-height:33em;
+    overflow-y: auto;
+}

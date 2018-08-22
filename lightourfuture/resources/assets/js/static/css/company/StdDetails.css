@@ -1,0 +1,49 @@
+@font-face{
+    font-family : "NotoSans";
+    src : url("../../font/NotoSansCJKjp-DemiLight.otf");
+}
+
+table.std-info-table {
+    border-collapse: collapse;
+    text-align: left;
+    line-height: 1.5;
+    border-top: 1px solid #ccc;
+    border-left: 3px solid #008080;
+}
+table.std-info-table th {
+    width: 15em;
+    background-color: rgba(177, 177, 177, 0.3);
+    padding-top : auto;
+    padding: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+    vertical-align: center;
+    color: #008080;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+
+}
+table.std-info-table td {
+    text-align: center;
+    font-size: 1.2rem;
+    width: 22em;
+    padding: 10px;
+    vertical-align: top;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.sheet-title {
+    background:#008080;
+    text-align: center;
+    color:white;
+    font-size: 1.4rem;
+}
+
+.motivation{
+    background:rgba(177, 177, 177, 0.3);
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: "Noto Sans";
+    border:1px solid white;
+}

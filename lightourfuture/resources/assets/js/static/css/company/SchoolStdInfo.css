@@ -1,0 +1,118 @@
+@font-face{
+    font-family : "NotoSans";
+    src : url("../../font/NotoSansCJKjp-DemiLight.otf");
+}
+
+.wrap-cont {
+    font-family: "Noto Sans";
+    display: grid;
+    grid-template-rows: 4fr 6fr;
+    grid-row-gap: 1em;
+}
+
+.col-list-box {
+    display:grid;
+    grid-template-rows : 1.3fr 8.7fr;
+}
+
+.std-list-box {
+    display:grid;
+    grid-template-rows : 0.8fr 9.2fr;
+ }
+
+.headline {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.col-box-ratio{
+    display: grid;
+    background:white;
+    grid-column-gap: 1em;
+    grid-template-columns: 0.4fr 0.6fr;
+}
+
+.sub-title {
+    color : #008080;
+    font-family: "Noto Sans";
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.card {
+    background:white;
+    box-shadow : 0.4px 0.4px 0.4px 0.4px rgba(0,0,0,0.4);
+}
+
+.school-list {
+    width : 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 8.7fr 1.3fr;
+}
+
+.col-info {
+    display: grid;
+    grid-template-columns: 2.5fr 7.5fr;
+}
+
+.col-basics {
+    margin : 0.5em;
+    display : grid;
+    grid-template-rows: 0.12fr 0.3fr 0.48fr;
+}
+
+.faculty-list {
+    display: grid;
+    grid-template-columns: repeat( 4 , 1fr );
+    grid-column-gap: 0.2em;
+}
+
+.gmap-box {
+    border : 0.1em solid black;
+}
+
+.subject {
+    font-family: "Noto Sans";
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.faculties {
+    display: grid;
+    grid-template-columns: 0.3fr 0.7fr;
+}
+
+.project-teams {
+    display : grid;
+    grid-template-columns: repeat(5,1fr);
+    text-align : center;
+    font-family: "Noto Sans";
+}
+
+
+.school-section{
+    height:100%;
+    display: grid;
+    grid-template-rows : 0.1fr 0.8fr 0.1fr;
+}
+
+.title-section {
+    height: 100%;
+    display: grid;
+    grid-template-rows : 0.1fr 0.9fr;
+}
+
+.small-title {
+    color : #008080;
+    font-family: "Noto Sans";
+    font-size: 1.1rem;
+    border-bottom: 1px solid #008080;
+}
+
+.faculty-section {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 0.6fr 0.4fr;
+}
+

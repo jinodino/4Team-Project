@@ -1,0 +1,62 @@
+#tabon {
+    text-align: center;
+    height: 70px;
+    background-color: #008080;
+    color: white;
+    font-size: 1.5rem;
+    padding-top: 5%;
+}
+
+#taboff {
+    text-align: center;
+    height: 70px;
+    background: white;
+    color: #008080;
+    font-size: 1.5rem;
+    padding-top: 5%;
+
+}
+
+.stdCountFont {
+    text-align: center;
+    background: white;
+    font-size: 5rem;
+    /* padding-top: 5%; */
+}
+
+.hoverable {
+    cursor:default;
+    color:#000;
+    text-decoration:none;
+    font-size: 5vw;
+  }
+  .hoverable .hover {
+    display:none;
+  }
+  .hoverable:hover .normal {
+    display:none;
+  }
+  .hoverable:hover .hover {
+    display:inline;  /* CHANGE IF FOR BLOCK ELEMENTS */
+  }
+
+    /* width */
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+  
+  
+    ::-webkit-scrollbar-track {
+      background: #f1f1f1; 
+    }
+    
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: #008080; 
+    }
+  
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #008080; 
+    }
+     

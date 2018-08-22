@@ -1,0 +1,268 @@
+/* 더보기 */
+
+#expand {
+    height: auto;
+    /* border: solid 1px; */
+    overflow: hidden;
+    transition: height 0.5s;
+}
+
+#toggle:checked~#expand {
+    height: 0px;
+    color: #FFF;
+}
+
+#toggle:checked~label::after {
+    content: "開く▼";
+}
+
+#toggle~label::after {
+    content: "閉じる▲";
+}
+
+#toggle~label:hover {
+    color: blue;
+}
+
+#toggleemployment:checked~#expand {
+    height: 0px;
+    color: #FFF;
+}
+
+#toggleemployment:checked~label::after {
+    content: "開く▼";
+}
+
+#toggleemployment~label::after {
+    content: "閉じる▲";
+}
+
+#toggleemployment~label:hover {
+    color: blue;
+}
+
+#itemtoggle:checked~#expand {
+    height: 0px;
+    color: #FFF;
+}
+
+#itemtoggle:checked~label::after {
+    content: "開く▼ ";
+}
+
+#itemtoggle~label::after {
+    content: "閉じる▲ ";
+}
+
+#itemtoggle~label:hover {
+    color: blue;
+}
+
+
+/* overstyle*/
+
+.allsum {
+    border: 1px solid;
+    text-align: center;
+    border-radius: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    /* display: flex;
+        align-items: center;
+        justify-content: center; */
+}
+
+.radius {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 5px solid #008080;
+    line-height: 200px;
+    margin: 20px auto;
+    transition: all 0.8s;
+    /* margin-left: auto;
+        margin-right: auto;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.radius:hover {
+    box-shadow: inset 0px 0px 0 150px #C0C2C3;
+    color: #FFF;
+}
+
+.Hover>.not {
+    position: relative;
+    opacity: 1;
+}
+
+.Hover:hover>.not {
+    transition: opacity 0.8s;
+    opacity: 0;
+}
+
+.Hover>.unnot {
+    position: absolute;
+    opacity: 0;
+}
+
+.Hover:hover>.unnot {
+    transition: opacity 0.8s;
+    opacity: 1;
+}
+
+
+/* color */
+
+#main {
+    background-color: #008080;
+    color: white;
+    text-align: center;
+}
+
+#mainbar {
+    background-color: rgb(75, 164, 164);
+    border-top: 7px solid #008080;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    /* d d 아래 ㅇ */
+    padding: 2px 0 7px 0;
+}
+#managementMainbar {
+    background-color: rgb(75, 164, 164);
+    border-top: 7px solid #008080;
+    color: white;
+    text-align: center;
+    /* d d 아래 ㅇ */
+    padding: 2px 0 7px 0;
+}
+
+#blue {
+    background: rgb(25, 118, 210);
+    color: white;
+    text-align: center;
+}
+
+#tabon {
+    border-bottom: 2px solid rgb(25, 118, 210);
+    padding-top: 10px;
+    text-align: center;
+    color: rgb(25, 118, 210);
+    height: 40px
+}
+
+#taboff {
+    padding-top: 10px;
+    text-align: center;
+    height: 40px
+}
+
+#gray {
+    background: #868686;
+    color: white;
+    text-align: center;
+}
+
+#orange {
+    background: #ff8400;
+    color: white;
+    text-align: center;
+}
+
+#green {
+    background: #43A047;
+    color: white;
+    text-align: center;
+}
+
+#red {
+    background: #E53935;
+    color: white;
+    text-align: center;
+}
+
+
+/* table */
+
+#tableTitle {
+    background: #E0E0E0;
+    font: bold;
+    /* rgb(177, 177, 177) */
+    border: 0.5px solid #BDBDBD;
+    /* border-bottom: 0px solid #BDBDBD; */
+    padding: 5px;
+}
+
+#tableItem {
+    background: white;
+    border: 0.5px solid #BDBDBD;
+    /* border-bottom: 0px solid #BDBDBD; */
+    padding: 5px;
+}
+
+#tdstyle {
+    font-size: 18px;
+    height: 60px;
+    padding-top: 10px;
+    /* text-align: center;  */
+    vertical-align: middle;
+}
+
+
+/* font */
+
+.font {
+    font-size: 18px;
+}
+
+.Titlefont {
+    font-weight: bold;
+    color: #008080;
+    font-size: 22px;
+}
+
+.resultfont {
+    font-weight: bold;
+    color: #008080;
+    font-size: 30px;
+}
+
+.fontmain {
+    font-weight: bold;
+    color: #008080;
+    font-size: 18px;
+}
+
+.Titlefontrad {
+    font-weight: bold;
+    color: red;
+    font-size: 30px;
+    margin: 10px;
+}
+
+.Titlefontgreen {
+    font-weight: bold;
+    color: green;
+    font-size: 30px;
+    margin: 10px;
+}
+
+
+/*  */
+
+.divheight {
+    background: #008080;
+    width: 2px;
+    height: 45px;
+    margin-top: 20px;
+}
+
+
+/* button */
+
+.btnborder {
+    border: 0;
+    outline: 0;
+}
